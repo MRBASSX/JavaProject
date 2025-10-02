@@ -48,7 +48,9 @@ public class Salamatu{
   Long MyL = 24L;
   Short MyS = 234;
 
-   System.out.println(num[1][4]);
+
+
+   System.out.println(String.valueOf(2355));
    System.out.println(boo);
    System.out.println(cha);
    System.out.println(name);
