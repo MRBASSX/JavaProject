@@ -117,9 +117,18 @@ if (op == '+') {
     System.out.println("The Product of " + first + " * " + second + " == " + (first * second));
 
 
-}
+ }else if(op == '-'){
 
-}
+    System.out.println("The Difference of " + first + " - " + second + " == " + (first - second));
+
+
+}else if(op == '/'){
+
+    System.out.println("The Division of " + first + " / " + second + " == " + (first / second));
 
     
+}
+
+}
+
 }
