@@ -97,37 +97,37 @@ public static void main(String[] args){
 // }
 
 
-Scanner hope = new Scanner(System.in);
+// Scanner hope = new Scanner(System.in);
 
-System.out.println("Enter first Number");
-float first = hope.nextFloat();
+// System.out.println("Enter first Number");
+// float first = hope.nextFloat();
 
-System.out.println("Enter Operation To perform");
-char op = hope.next().charAt(0);
+// System.out.println("Enter Operation To perform");
+// char op = hope.next().charAt(0);
 
-System.out.println("Enter second Number");
-float second = hope.nextFloat();
-
-
-if (op == '+') {
-
-    System.out.println("The Sum of " + first + " + " + second + " == " + (first + second));
-}else if(op == '*'){
-
-    System.out.println("The Product of " + first + " * " + second + " == " + (first * second));
+// System.out.println("Enter second Number");
+// float second = hope.nextFloat();
 
 
- }else if(op == '-'){
+// if (op == '+') {
 
-    System.out.println("The Difference of " + first + " - " + second + " == " + (first - second));
+//     System.out.println("The Sum of " + first + " + " + second + " == " + (first + second));
+// }else if(op == '*'){
+
+//     System.out.println("The Product of " + first + " * " + second + " == " + (first * second));
 
 
-}else if(op == '/'){
+//  }else if(op == '-'){
 
-    System.out.println("The Division of " + first + " / " + second + " == " + (first / second));
+//     System.out.println("The Difference of " + first + " - " + second + " == " + (first - second));
+
+
+// }else if(op == '/'){
+
+//     System.out.println("The Division of " + first + " / " + second + " == " + (first / second));
 
     
-}
+// }
 
 
 
@@ -137,13 +137,23 @@ if (op == '+') {
 // Controll StateMent 
 
 
-// if Staetement
+// if Statement
+
+
+if (true) {
+    
+
+    System.out.println("This Is " + true);
+}
+
 
 // if else  Statement
 
-// else if Staetement
+// else if Statement
 
-// Nested If StaetMent
+// Nested If Statement
+
+// Switch Case
 
 
 
