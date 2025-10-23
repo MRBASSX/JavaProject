@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Statement {
 
 public static void main(String[] args) {
@@ -81,5 +82,37 @@ if (count > 0) {
 
 
 // Switch Case
+
+Scanner lada = new Scanner(System.in);
+
+System.out.println("input first number");
+float first = lada.nextFloat();
+
+
+System.out.println("input operation");
+char oper = lada .next().charAt(0);
+
+System.out.println("input second number");
+float second = lada.nextFloat();
+
+
+switch (oper) {
+
+    case '+' -> System.out.println("The Sum of " + first + " + " + second + " == " + (first + second));
+
+    case '-' -> System.out.println("The Difference of " + first + " - " + second + " == " + (first - second));
+
+    case '*' -> System.out.println("The Product of " + first + " * " + second + " == " + (first * second));
+
+    case '/' -> System.out.println("The Division of " + first + " / " + second + " == " + (first / second));
+
+    default -> System.out.println("Wrong Input try Again");
+    
+}
+
+
+
+
+
 }
 }
