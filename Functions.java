@@ -33,6 +33,6 @@ public class Functions {
         System.out.println("The size of the triangle is "+ (0.5) * (height * base));
     }
 
-    // FriendZone
+    
 
 }
