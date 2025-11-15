@@ -29,6 +29,17 @@ public class Functions {
         System.out.println(" The size of the Rectangle is  " + ((2 * length)  +(2 * breath )));
     }
 
+
+
+
+
+
+
+
+
+
+
+    
     public static void trianglesize(float height,float base){
         System.out.println("The size of the triangle is "+ (0.5) * (height * base));
     }
