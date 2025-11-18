@@ -1,22 +1,22 @@
 
 public class Functions {
 
-    public static void main(String[] agrs) {
+    // public static void main(String[] agrs) {
 
 
-        int number = 4;
+    //     int number = 4;
 
-        SquareSize(number);
+    //     SquareSize(number);
 
-        RectangularSize(600,number);
-         RectangularSize(200,200);
-        trianglesize(950,2670);
+    //     RectangularSize(600,number);
+    //      RectangularSize(200,200);
+    //     trianglesize(950,2670);
    
-    }
+    // }
 
-    public static void Mary() {
-        System.out.println("Mary Nkrumah");
-    }
+    // public static void Mary() {
+    //     System.out.println("Mary Nkrumah");
+    // }
 
 
     public static void SquareSize(float length){

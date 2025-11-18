@@ -4,9 +4,7 @@ public class Loop {
     public static void main(String[] args) {
 
         // for (int t = -4; t >= -500; t--){
-        // System.out.println(t);
-        // }
-
+        // Sy
         // int t = -4;
         // while (t >= -500){
         // System.out.println(t);
